@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .sidebar {
+    border: 5px solid red;
+    background: #F8F9FB;
+    position: fixed;
+    left: 0;
+    width: 330px;
+    height: 98%;
+  }
+  
+  .sidebar .profile_image{
+    position: fixed;
+    width: 97px;
+    height: 95px;
+    border-radius: 100px;
+    margin: 51px 62px;
+  }
+  .sidebar_header{
+      text-align: center;
+  }
+  
+  .sidebar a{
+    color: rgb(180, 175, 175);
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    line-height: 27px;
+  }
+
+  .sidebar-footer{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 25px;
+  }
+  .sidebar-footer-items{
+      margin-right: 15px;
+  }
+  .card{
+    margin: 45px auto 0px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+    box-shadow:  0 0px 20px #888888;
+  }
+  .card-img-top {
+    position: relative;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-radius: 20px 20px 0 0;
+}
+.card-body {
+    padding: 33px 15px 5px;
+}
+.card-title {
+    color: rgb(83, 76, 76);
+}
+.card-text-color{
+    color: #ccc;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px 20px;
+    font-size: 17px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+  }
+ 
